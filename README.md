@@ -1,6 +1,6 @@
 # More Loading Gif
 
-This package helps to render a widget with a loading gif image with a transparent background. The gifs are base on (Loading.io)[https://loading.io/]
+This package helps to render a widget with a loading gif image with a transparent background. The gifs are base on [Loading.io](https://loading.io/)
 
 
 ## Instalation
