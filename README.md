@@ -1,14 +1,37 @@
-# more_loading_gif
+# More Loading Gif
 
-A new Flutter package project.
+This package helps to render a widget with a loading gif image with a transparent background.
 
-## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Instalation
+Include `more_loading_gif` in your `pubspec.yaml` file:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  more_loading_gif: version
+```
+### Demo
+<img src="https://raw.githubusercontent.com/ajomuch92/more-loading-gif/master/demo.gif" width="200" height="429"/>
+
+
+## Usage
+
+To use this package, just import it into your file, and add a new MoreLoadingGif widget.
+
+```dart
+import 'package:more_loading_gif/more_loading_gif.dart';
+
+...
+
+    MoreLoadingGif(type: MoreLoadingGifType.blocks),
+...
+
+```
+### Properties used on the widget
+
+|  Name | Description   | Required   | Default   |
+| ------------ | ------------ | ------------ | ------------ |
+| type  | Widget type (blocks, chunck, doubleRing, eclipse, ellipsis, infinity, magnify, pulse, ripple, spin, spinner) |  True  |   |
+| size  | Double value to indicate the widget size | False   | 100.0  |
