@@ -1,6 +1,6 @@
 name: more_loading_gif
 description: A package to show loading gif as assets with transparent background.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/ajomuch92/more-loading-gif
 
 environment:

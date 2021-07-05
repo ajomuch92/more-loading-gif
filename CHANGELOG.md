@@ -3,3 +3,5 @@
 
 ## 0.0.2 First release (07/04/2021)
 
+## 0.0.3 First release (08/04/2021)
+
