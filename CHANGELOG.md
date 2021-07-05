@@ -1,3 +1,3 @@
-## 0.0.1
+<!-- Date Formate DD/MM/YYYY -->
+## 0.0.1 First release (07/04/2021)
 
-* TODO: Describe initial release.
